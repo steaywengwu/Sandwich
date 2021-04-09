@@ -20,6 +20,12 @@
 </p>
 
 ## Why Sandwich?
+
+三明治是为了从网络响应中构造标准化的响应接口而发明的。我们可以使用接口的有用扩展直观地处理成功的数据、错误响应和异常情况。因此，我们不需要设计和实现像“Resource”或“Result”这样的包装类，它有助于减少我们的工作时间，并且只关注业务代码。
+
+文档的例子相当贴心，收下我的膝盖。。
+
+
 Sandwich was invented for constructing the standardized response interface from the network response. We can handle successful data, error response, and an exceptional case intuitively using useful extensions of the interface. So we don't need to design and implement wrapper classes like `Resource` or `Result`, and it helps to reduce our work time and makes focus on only business codes. Sandwich supports [handling error responses globally](https://github.com/skydoves/sandwich#global-operator), [Mapper](https://github.com/skydoves/sandwich#mapper), [Operator](https://github.com/skydoves/sandwich#operator), and great compatibilities like [toLiveData](https://github.com/skydoves/sandwich#tolivedata) or [toFlow](https://github.com/skydoves/sandwich#toflow). Also, we can implement great harmony with [coroutines](https://github.com/skydoves/sandwich#apiresponse-for-coroutines) and [flow](https://github.com/skydoves/sandwich#suspendonsuccess-suspendonerror-suspendonexception) in our projects using this library.
 
 ## Download
